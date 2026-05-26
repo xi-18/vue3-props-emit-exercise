@@ -26,8 +26,11 @@ npm run dev
 ## 📋 實作任務與驗收標準
 
 本專案總共有兩個核心任務，請根據程式碼檔案中標註 【任務一】 與 【任務二】 的註解提示進行填空：
-**🔍 任務一：商品卡片元件（練習 Props）**
-**目標檔案：src/components/ProductCard.vue 與 src/App.vue**
+
+# 🔍 任務一：商品卡片元件（練習 Props）#
+
+# 目標檔案：src/components/ProductCard.vue 與 src/App.vue#
+
 實作規格：
 在 ProductCard.vue 中，使用 defineProps 宣告接收以下三個屬性：
 title: 字串（String），必填
