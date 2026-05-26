@@ -27,9 +27,9 @@ npm run dev
 
 本專案總共有兩個核心任務，請根據程式碼檔案中標註 【任務一】 與 【任務二】 的註解提示進行填空：
 
-# 🔍 任務一：商品卡片元件（練習 Props）#
+### 🔍 任務一：商品卡片元件（練習 Props）#
 
-# 目標檔案：src/components/ProductCard.vue 與 src/App.vue#
+### 目標檔案：src/components/ProductCard.vue 與 src/App.vue#
 
 實作規格：
 在 ProductCard.vue 中，使用 defineProps 宣告接收以下三個屬性：
@@ -37,7 +37,7 @@ title: 字串（String），必填
 price: 數字（Number），必填
 isFeatures: 布林值（Boolean），非必填，預設值為 false
 在 App.vue 中，利用 v-for 迴圈將 products 陣列裡的資料，透過 Props 完整傳遞給 ProductCard 組件。
-驗收標準：畫面上必須正確顯示三張商品卡片。其中「專業螢幕」與「垂直滑鼠」的卡片上方，必須因為 isFeatures="true" 而自動亮起綠色邊框與「⭐ 推薦商品」的標籤。
+**驗收標準：畫面上必須正確顯示三張商品卡片。其中「專業螢幕」與「垂直滑鼠」的卡片上方，必須因為 isFeatures="true" 而自動亮起綠色邊框與「⭐ 推薦商品」的標籤。**
 
 **📣 任務二：購物車數量調整（練習 Emit）**
 **目標檔案：src/components/CounterButton.vue 與 src/App.vue**
